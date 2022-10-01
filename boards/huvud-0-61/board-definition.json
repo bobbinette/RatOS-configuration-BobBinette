@@ -1,0 +1,12 @@
+{
+	"$schema": "../board-definition.schema.json",
+	"isToolboard": true,
+	"name": "HUVUD V0.61",
+	"manufacturer": "LUKE'S LABORATORY",
+	"serialPath": "/dev/huvud-0-61",
+	"firmwareBinaryName": "firmware-huvud-0-61.bin",
+	"compileScript": "compile.sh",
+	"flashScript": "flash.sh",
+	"flashInstructions": "",
+	"documentationLink": "https://os.ratrig.com/docs/boards/huvud/huvud-0-61"
+}

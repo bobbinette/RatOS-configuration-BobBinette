@@ -1,0 +1,4 @@
+# luke's laboratory toolboard huvud v0.61
+SUBSYSTEMS=="usb", ATTRS{idProduct}=="614e",  ATTRS{idVendor}=="1d50", ATTRS{serial}=="huvud-0-61", ACTION=="add", SYMLINK+="huvud-0-61", RUN+="/home/pi/klipper_config/config/scripts/klipper-mcu-added.sh"
+
+ACTION=="remove", ENV{DEVLINKS}=="/dev/huvud-0-61"
